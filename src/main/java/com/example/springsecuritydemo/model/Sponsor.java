@@ -10,16 +10,14 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+@Builder
 @Entity
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Builder
-public class Player {
+public class Sponsor {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String names;
-    private int number;
-    private int id_team;
 }
