@@ -19,5 +19,5 @@ public class Sponsor {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    private String names;
+    private String name;
 }

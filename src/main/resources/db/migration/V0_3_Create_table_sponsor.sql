@@ -1,5 +1,5 @@
 CREATE TABLE sponsor (
     id SERIAL,
-    names VARCHAR,
+    name VARCHAR,
     id primary key
 )

@@ -1,6 +1,6 @@
 CREATE TABLE player(
     id SERIAL,
-    names VARCHAR,
+    name VARCHAR,
     numbers INT,
     id primary key,
     id_team INT,

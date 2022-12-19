@@ -23,7 +23,7 @@ public class Team {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    private String names;
+    private String name;
 
     @ManyToMany
     @JoinTable(name = "have",joinColumns = @JoinColumn(name = "id_sponsor"),inverseJoinColumns = @JoinColumn(name = "id_team"))
